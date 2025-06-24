@@ -1,0 +1,11 @@
+sign_language_translator/
+├── data/                              # Folder with videos per sign (A, B, C, Hello, Thanks...)
+│   ├── A/                             # Video clips or frame sequences
+│   └── B/
+├── preprocess.py                      # Convert video to frames
+├── train_model.py                     # CNN + LSTM training
+├── app.py                             # Streamlit translator
+├── model.h5                           # Trained model
+├── requirements.txt
+├── README.md
+└── .gitignore
